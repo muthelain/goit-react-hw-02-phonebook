@@ -14,6 +14,7 @@ export class ContactForm extends Component {
   };
 
   onChange = e => {
+
     const { name, value } = e.currentTarget;
     this.setState({ [name]: value });
   };
@@ -26,6 +27,7 @@ export class ContactForm extends Component {
     this.setState({ name: '', number: '' });
   };
 
+  
   render() {
     const { name, number } = this.state;
     return (

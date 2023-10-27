@@ -22,6 +22,7 @@ export class App extends Component {
       name,
       number,
     };
+    
     if (
       this.state.contacts
         .flatMap(contact => contact.name)
