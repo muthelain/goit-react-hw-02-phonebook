@@ -11,7 +11,7 @@ export class ContactForm extends Component {
   state = {
     name: '',
     number: '',
-  };
+  }; 
 
   onChange = e => {
 
